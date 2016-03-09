@@ -1,0 +1,18 @@
+﻿<Window x:Class="AudioToColorGUI.MainWindow"
+        xmlns:e="clr-namespace:WpfExtensions"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AudioToColorGUI"
+        mc:Ignorable="d"
+        Title="Audio To Color" Height="350" Width="525">
+    <Canvas x:Name="MainCanvas">
+        <TextBlock Name="DropZone" Text="Drop Files Here" TextAlignment="Center" VerticalAlignment="Center" AllowDrop="True" Drop="DropZone_Drop" Canvas.Left="10" Canvas.Top="10" Height="299" Width="497" />
+    </Canvas>
+    <!--
+    <Grid>
+        <Button Name="Start" Content="Start" Margin="10,10,283,281" MouseUp="Start_MouseUp"/>
+    </Grid>
+    -->
+</Window>
